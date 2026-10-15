@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tom Meo Meo</title>
+<style>
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #101020, #24244a);
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+}
+header {
+    padding: 30px 15px;
+    background: #17172b;
+    border-bottom: 2px solid #8b5cf6;
+}
+h1 {
+    color: #b99aff;
+    margin: 0;
+}
+.container {
+    padding: 25px 15px;
+}
+.card {
+    max-width: 420px;
+    margin: 20px auto;
+    padding: 25px;
+    background: #20203a;
+    border-radius: 16px;
+    border: 1px solid #6550a5;
+    box-shadow: 0 0 20px #6d28d933;
+}
+button {
+    background: #8b5cf6;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 9px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background: #7040d8;
+}
+footer {
+    padding: 20px;
+    color: #aaa;
+    font-size: 13px;
+}
+</style>
+</head>
+<body>
+<header>
+    <h1>🐱 TOM MEO MEO</h1>
+    <p>Welcome to my website</p>
+</header>
+<div class="container">
+    <div class="card">
+        <h2>Xin chào!</h2>
+        <p>Chào mừng bạn đến với website Tom Meo Meo.</p>
+        <button onclick="alert('Chào mừng đến với Tom Meo Meo!')">
+            Bấm vào đây
+        </button>
+    </div>
+</div>
+<footer>© 2026 Tom Meo Meo</footer>
+</body>
+</html>
